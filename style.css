@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins&display=swap');
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    object-fit: cover;
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 62vw;
+    height: 62px;
+    padding: 20px;
+}
+
+svg {
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: calc(100% - 105px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    z-index: 10;
+    position: relative;
+    gap: 20px;
+    text-align: center;
+    padding: 0px 23px;
+    align-content: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 65px;
+    width: 34vw;
+    text-align: center;
+}
+
+.hero:nth-child(3) {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ch3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ram {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(222, 177, 177, 0.1);
+    color: white;
+    padding: 0px 28px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(118, 112, 112);
+}
+
+.btn1 {
+    border-style: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 14px 18px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.btn2 {
+    cursor: pointer;
+    background-color: red;
+    padding: 3px 24px;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 40px;
+    font-size: 23px;
+    border-style: none;
+}
+
+.main input {
+    padding: 15px 280px 15px 30px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.8);
+    font-weight: 900;
+    border: 1px solid rgba(231, 208, 208, 0.5);
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sepration {
+    height: 5px;
+    width: 100vw;
+    background-color: rgba(220, 215, 218, 0.9);
+}
+
+h2 {
+    padding: 50px;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(240, 241, 242);
+    width: 30vw;
+    display: flex;
+}
+
+.first {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.boxes10 {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.commonbox {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.commonbox:hover {
+    transform: scale(1.1);
+
+}
+
+.reasons {
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
+.reasons h2 {
+    font-size: 42px;
+    margin-bottom: 0px;
+    width: 42vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(34, 28, 64);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.logos {
+    position: absolute;
+    bottom: 15px;
+    right: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.faq-section {
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.faq-section h2 {
+    font-size: 42px;
+
+}
+
+.faq-question {
+    width: 70vw;
+    padding: 20px;
+    text-align: left;
+    background-color: #303030;
+    color: white;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.plus {
+    font-size: 50px;
+}
+
+.edit2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.edit2 input {
+    padding: 15px 280px 15px 30px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.8);
+    font-weight: 900;
+    border: 1px solid rgba(231, 208, 208, 0.5);
+}
+
+.netflix-footer {
+    background-color: black;
+    color: #999;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.netflix-footer a {
+    color: #999;
+    text-decoration: none;
+    font-size: 18px;
+    width: vw;
+}
+
+.netflix-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-lang select {
+    background: transparent;
+    border: 1px solid #999;
+    color: #999;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.netflix-region {
+    font-size: 14px;
+}
