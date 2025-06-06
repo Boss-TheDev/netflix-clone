@@ -11,16 +11,15 @@ Built with pure HTML and CSS (no JavaScript)
 Google Fonts integration
 
 Live Demo
-
+https://netfilx-clone-bossthedev.netlify.app/
 
 
 Folder Structure
 netflix-clone/
-│
-├── netflix.html
-├── style.css
-├── favicon.ico
-└── /assets/images/
+index.html
+style.css
+favicon.ico
+/assets/images/
 
 
 Tech Stack
